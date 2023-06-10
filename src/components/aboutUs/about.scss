@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 229px;
+  .text {
+    h3 {
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 80px;
+      color: #000000;
+      margin-bottom: 23px;
+    }
+    .text {
+      width: 635px;
+      height: 240px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #8f95a5;
+    }
+    .section{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}

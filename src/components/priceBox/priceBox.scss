@@ -1,0 +1,47 @@
+.priceBox {
+  margin-bottom: 261px;
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 19px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 48px;
+    color: #263238;
+  }
+  p:nth-child(3) {
+    width: 350px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8f95a5;
+    margin-bottom: 29px;
+  }
+  button {
+    background: #eeeeee;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0px 24px 0 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 27px;
+      color: #546269;
+    }
+  }
+}

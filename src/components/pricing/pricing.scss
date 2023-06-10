@@ -1,0 +1,18 @@
+.price {
+  h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 83px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+  }
+  .priceBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

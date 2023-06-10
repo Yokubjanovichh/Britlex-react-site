@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 147px;
+  .hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .textWithImg {
+      display: flex;
+      gap: 38px;
+      margin-bottom: 40px;
+      h1 {
+        width: 386px;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 80px;
+        color: #000000;
+      }
+    }
+    p {
+      margin-bottom: 61px;
+    }
+  }
+  .girl {
+    width: 600px;
+  }
+}

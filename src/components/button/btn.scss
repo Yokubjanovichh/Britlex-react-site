@@ -1,0 +1,12 @@
+.btn {
+  width: auto;
+  background: #263238;
+  border-radius: 15px;
+  font-family: "Poppins";
+  line-height: 54px;
+  color: #ffffff;
+  transition: all 0.05s linear;
+  &:hover {
+    opacity: 0.9;
+  }
+}

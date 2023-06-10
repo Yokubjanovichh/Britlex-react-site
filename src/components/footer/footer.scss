@@ -1,0 +1,18 @@
+.footer {
+  hr {
+    margin-bottom: 32px;
+  }
+  .footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 36px;
+      color: #8f95a5;
+    }
+  }
+}
