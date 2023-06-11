@@ -8,7 +8,6 @@ import Pricing from "./components/pricing/pricing";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
-
 export default class App extends React.Component {
   render() {
     return (
@@ -19,7 +18,7 @@ export default class App extends React.Component {
         <About />
         <Pricing />
         <Contact />
-        <Footer/>
+        <Footer />
       </div>
     );
   }
